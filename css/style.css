@@ -1,0 +1,171 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: relative;
+  width: 100%;
+}
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+.menu {
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+}
+.menu .menu_link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+.subheader {
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+}
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+.subheader .subheader_official {
+  color: #ffffff;
+  margin-top: 6px;
+  font-weight: 100;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.subheader .subheader_call {
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 19px;
+  text-align: right;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  margin-top: 19px;
+  border: none;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 14px;
+}
+.promo {
+  min-height: 800px;
+  background: url("../image/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-top: 22px;
+}
+.promo .promo_subheader {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+}
+.promo .promo_descr {
+  margin-top: 23px;
+
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+.promo .promo_btn {
+  width: 259px;
+  height: 63px;
+  display: block;
+  margin: 118px auto 0 auto;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 18px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.reasons .reasons_benefits {
+  width: 115px;
+  height: 27px;
+  margin: 0 auto;
+  margin-top: 18px;
+  background: #000000;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.reasons .reasons_header {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+
+  text-transform: uppercase;
+  color: #222222;
+}
+.reasons_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.reasons_round {
+  width: 116px;
+  height: 116px;
+
+  background: #1eacc7;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  margin-right: 26px;
+}
+.reasons_img {
+  margin: 27px;
+}
+.reasons_descr {
+  width: 343px;
+}
